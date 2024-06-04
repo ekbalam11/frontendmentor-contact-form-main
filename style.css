@@ -1,0 +1,44 @@
+:root{
+    /* ### Primary */
+    --green200lighter: hsl(148, 38%, 91%);
+    --green600medium: hsl(169, 82%, 27%);
+    --red: hsl(0, 66%, 54%);
+
+    /* ### Neutral */
+    --white: hsl(0, 0%, 100%); 
+    --grey500medium: hsl(186, 15%, 59%);
+    --grey900darker: hsl(187, 24%, 22%);
+}
+
+body{
+    font-family: Karla;
+    background-color: var(--green200lighter);
+}
+
+.frame{
+    background-color: var(--white);
+    margin: 3rem;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.inputs{
+    display: grid;    
+}
+
+input{
+    border-radius: 5px;
+    border: var(--grey500medium) solid 1px;
+    height: 40px;
+}
+
+.submit-button{
+    background-color: var(--green600medium);
+    color: var(--white);
+}
